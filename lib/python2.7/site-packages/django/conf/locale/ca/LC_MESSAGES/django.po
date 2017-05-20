@@ -1,7 +1,7 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Antoni Aloy <aaloy@apsl.net>, 2012,2015
+# Antoni Aloy <aaloy@apsl.net>, 2012,2015-2017
 # Carles Barrobés <carles@barrobes.com>, 2011-2012,2014
 # duub qnnp, 2015
 # Jannis Leidel <jannis@leidel.info>, 2011
@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 17:42+0200\n"
-"PO-Revision-Date: 2015-11-27 09:35+0000\n"
-"Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
+"POT-Creation-Date: 2017-01-19 16:49+0100\n"
+"PO-Revision-Date: 2017-02-14 07:18+0000\n"
+"Last-Translator: Antoni Aloy <aaloy@apsl.net>\n"
 "Language-Team: Catalan (http://www.transifex.com/django/django/language/"
 "ca/)\n"
 "MIME-Version: 1.0\n"
@@ -64,6 +64,9 @@ msgstr "danès"
 msgid "German"
 msgstr "alemany"
 
+msgid "Lower Sorbian"
+msgstr "Lower Sorbian"
+
 msgid "Greek"
 msgstr "grec"
 
@@ -86,7 +89,7 @@ msgid "Argentinian Spanish"
 msgstr "castellà d'Argentina"
 
 msgid "Colombian Spanish"
-msgstr ""
+msgstr "Español de Colombia"
 
 msgid "Mexican Spanish"
 msgstr "espanyol de Mèxic"
@@ -119,7 +122,7 @@ msgid "Irish"
 msgstr "irlandès"
 
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "Escocés Gaélico"
 
 msgid "Galician"
 msgstr "gallec"
@@ -132,6 +135,9 @@ msgstr "hindi"
 
 msgid "Croatian"
 msgstr "croat"
+
+msgid "Upper Sorbian"
+msgstr "Upper Sorbian"
 
 msgid "Hungarian"
 msgstr "hongarès"
@@ -193,8 +199,8 @@ msgstr "Maratí"
 msgid "Burmese"
 msgstr "Burmès"
 
-msgid "Norwegian Bokmal"
-msgstr "noruec bokmal"
+msgid "Norwegian Bokmål"
+msgstr "Norwegian Bokmål"
 
 msgid "Nepali"
 msgstr "Nepalí"
@@ -292,8 +298,14 @@ msgstr "Arxius estàtics"
 msgid "Syndication"
 msgstr "Sindicació"
 
-msgid "Web Design"
-msgstr "Disseny web"
+msgid "That page number is not an integer"
+msgstr "Aquesta plana no és un sencer"
+
+msgid "That page number is less than 1"
+msgstr "El nombre de plana és inferior a 1"
+
+msgid "That page contains no results"
+msgstr "La plana no conté cap resultat"
 
 msgid "Enter a valid value."
 msgstr "Introduïu un valor vàlid."
@@ -396,6 +408,14 @@ msgstr[0] ""
 msgstr[1] ""
 "Assegureu-vos que no hi ha més de %(max)s dígits abans de la coma decimal."
 
+#, python-format
+msgid ""
+"File extension '%(extension)s' is not allowed. Allowed extensions are: "
+"'%(allowed_extensions)s'."
+msgstr ""
+"L'extensió d'arxiu  '%(extension)s' no es permesa. Les extensions permeses "
+"són: '%(allowed_extensions)s'."
+
 msgid "and"
 msgstr "i"
 
@@ -435,6 +455,9 @@ msgstr "Enter"
 #, python-format
 msgid "'%(value)s' value must be an integer."
 msgstr "El valor '%(value)s' ha de ser un nombre enter."
+
+msgid "Big (8 byte) integer"
+msgstr "Enter gran (8 bytes)"
 
 #, python-format
 msgid "'%(value)s' value must be either True or False."
@@ -519,9 +542,6 @@ msgstr "El valor '%(value)s' ha de ser un número de coma flotant."
 msgid "Floating point number"
 msgstr "Número de coma flotant"
 
-msgid "Big (8 byte) integer"
-msgstr "Enter gran (8 bytes)"
-
 msgid "IPv4 address"
 msgstr "Adreça IPv4"
 
@@ -595,6 +615,14 @@ msgstr "Clau forana (tipus determinat pel camp relacionat)"
 
 msgid "One-to-one relationship"
 msgstr "Inter-relació un-a-un"
+
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr "relació %(from)s-%(to)s "
+
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr "relacions %(from)s-%(to)s "
 
 msgid "Many-to-many relationship"
 msgstr "Inter-relació molts-a-molts"
@@ -743,14 +771,14 @@ msgstr ""
 "No s'ha pogut interpretar %(datetime)s a la zona horària "
 "%(current_timezone)s; potser és ambigua o no existeix."
 
+msgid "Clear"
+msgstr "Netejar"
+
 msgid "Currently"
 msgstr "Actualment"
 
 msgid "Change"
 msgstr "Modificar"
-
-msgid "Clear"
-msgstr "Netejar"
 
 msgid "Unknown"
 msgstr "Desconegut"
@@ -1129,12 +1157,11 @@ msgid "Congratulations on your first Django-powered page."
 msgstr "Enhorabona per la teva primera plana amb Django."
 
 msgid ""
-"Of course, you haven't actually done any work yet. Next, start your first "
-"app by running <code>python manage.py startapp [app_label]</code>."
-msgstr ""
-"Per suposat, encara no has fet cap feina real encara. Seguidament crea la "
-"teva primera aplicació executant <code>python manage.py startapp "
+"Next, start your first app by running <code>python manage.py startapp "
 "[app_label]</code>."
+msgstr ""
+"Seguidament, inicii la seva primera aplicación executant <code>python manage."
+"py startapp [app_label]</code>."
 
 msgid ""
 "You're seeing this message because you have <code>DEBUG = True</code> in "

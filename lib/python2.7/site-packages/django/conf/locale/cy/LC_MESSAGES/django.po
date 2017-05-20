@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 17:42+0200\n"
-"PO-Revision-Date: 2015-11-27 09:35+0000\n"
+"POT-Creation-Date: 2017-01-19 16:49+0100\n"
+"PO-Revision-Date: 2017-01-20 09:03+0000\n"
 "Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
 "Language-Team: Welsh (http://www.transifex.com/django/django/language/cy/)\n"
 "MIME-Version: 1.0\n"
@@ -59,6 +59,9 @@ msgstr "Daneg"
 
 msgid "German"
 msgstr "Almaeneg"
+
+msgid "Lower Sorbian"
+msgstr ""
 
 msgid "Greek"
 msgstr "Groegedd"
@@ -129,6 +132,9 @@ msgstr "Hindi"
 msgid "Croatian"
 msgstr "Croasieg"
 
+msgid "Upper Sorbian"
+msgstr ""
+
 msgid "Hungarian"
 msgstr "Hwngareg"
 
@@ -189,8 +195,8 @@ msgstr "Marathi"
 msgid "Burmese"
 msgstr "Byrmaneg"
 
-msgid "Norwegian Bokmal"
-msgstr "Bocmal Norwyeg "
+msgid "Norwegian Bokmål"
+msgstr ""
 
 msgid "Nepali"
 msgstr "Nepaleg"
@@ -288,8 +294,14 @@ msgstr "Ffeiliau Statig"
 msgid "Syndication"
 msgstr "Syndicetiad"
 
-msgid "Web Design"
-msgstr "Dylunio Gwe"
+msgid "That page number is not an integer"
+msgstr ""
+
+msgid "That page number is less than 1"
+msgstr ""
+
+msgid "That page contains no results"
+msgstr ""
 
 msgid "Enter a valid value."
 msgstr "Rhowch werth dilys."
@@ -405,6 +417,12 @@ msgstr[1] "Sicrhewch nad oes mwy na %(max)s ddigid cyn y pwynt degol."
 msgstr[2] "Sicrhewch nad oes mwy na %(max)s digid cyn y pwynt degol."
 msgstr[3] "Sicrhewch nad oes mwy na %(max)s digid cyn y pwynt degol."
 
+#, python-format
+msgid ""
+"File extension '%(extension)s' is not allowed. Allowed extensions are: "
+"'%(allowed_extensions)s'."
+msgstr ""
+
 msgid "and"
 msgstr "a"
 
@@ -443,6 +461,9 @@ msgstr "cyfanrif"
 #, python-format
 msgid "'%(value)s' value must be an integer."
 msgstr "Rhaid i'r gwerth '%(value)s' fod yn gyfanrif."
+
+msgid "Big (8 byte) integer"
+msgstr "Cyfanrif mawr (8 beit)"
 
 #, python-format
 msgid "'%(value)s' value must be either True or False."
@@ -525,9 +546,6 @@ msgstr "Rhaid i '%(value)s' fod yn rif pwynt arnawf."
 msgid "Floating point number"
 msgstr "Rhif pwynt symudol"
 
-msgid "Big (8 byte) integer"
-msgstr "Cyfanrif mawr (8 beit)"
-
 msgid "IPv4 address"
 msgstr "Cyfeiriad IPv4"
 
@@ -601,6 +619,14 @@ msgstr "Allwedd Estron (math yn ddibynol ar y maes cysylltiedig)"
 
 msgid "One-to-one relationship"
 msgstr "Perthynas un-i-un"
+
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
 
 msgid "Many-to-many relationship"
 msgstr "Perthynas llawer-i-lawer"
@@ -754,14 +780,14 @@ msgstr ""
 "Ni ellir dehongli %(datetime)s yn y gylchfa amser %(current_timezone)s; "
 "mae'n amwys neu ddim yn bodoli."
 
+msgid "Clear"
+msgstr "Clirio"
+
 msgid "Currently"
 msgstr "Ar hyn o bryd"
 
 msgid "Change"
 msgstr "Newid"
-
-msgid "Clear"
-msgstr "Clirio"
 
 msgid "Unknown"
 msgstr "Anhysbys"
@@ -1151,8 +1177,8 @@ msgid "Congratulations on your first Django-powered page."
 msgstr ""
 
 msgid ""
-"Of course, you haven't actually done any work yet. Next, start your first "
-"app by running <code>python manage.py startapp [app_label]</code>."
+"Next, start your first app by running <code>python manage.py startapp "
+"[app_label]</code>."
 msgstr ""
 
 msgid ""

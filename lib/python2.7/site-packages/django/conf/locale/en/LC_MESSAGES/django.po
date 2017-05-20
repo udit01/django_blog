@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 17:42+0200\n"
+"POT-Creation-Date: 2017-01-19 16:49+0100\n"
 "PO-Revision-Date: 2010-05-13 15:35+0200\n"
 "Last-Translator: Django team\n"
 "Language-Team: English <en@li.org>\n"
@@ -69,7 +69,11 @@ msgstr ""
 msgid "German"
 msgstr ""
 
-#: conf/global_settings.py:65
+#: conf/global_settings.py:70
+msgid "Lower Sorbian"
+msgstr ""
+
+#: conf/global_settings.py:71
 msgid "Greek"
 msgstr ""
 
@@ -161,7 +165,11 @@ msgstr ""
 msgid "Croatian"
 msgstr ""
 
-#: conf/global_settings.py:86
+#: conf/global_settings.py:94
+msgid "Upper Sorbian"
+msgstr ""
+
+#: conf/global_settings.py:95
 msgid "Hungarian"
 msgstr ""
 
@@ -241,8 +249,8 @@ msgstr ""
 msgid "Burmese"
 msgstr ""
 
-#: conf/global_settings.py:106
-msgid "Norwegian Bokmal"
+#: conf/global_settings.py:113
+msgid "Norwegian Bokmål"
 msgstr ""
 
 #: conf/global_settings.py:107
@@ -373,11 +381,19 @@ msgstr ""
 msgid "Syndication"
 msgstr ""
 
-#: contrib/webdesign/apps.py:7
-msgid "Web Design"
+#: core/paginator.py:43
+msgid "That page number is not an integer"
 msgstr ""
 
-#: core/validators.py:33
+#: core/paginator.py:45
+msgid "That page number is less than 1"
+msgstr ""
+
+#: core/paginator.py:50
+msgid "That page contains no results"
+msgstr ""
+
+#: core/validators.py:34
 msgid "Enter a valid value."
 msgstr ""
 
@@ -480,7 +496,14 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: db/models/base.py:1095 forms/models.py:727
+#: core/validators.py:464
+#, python-format
+msgid ""
+"File extension '%(extension)s' is not allowed. Allowed extensions are: "
+"'%(allowed_extensions)s'."
+msgstr ""
+
+#: db/models/base.py:1205 forms/models.py:732
 msgid "and"
 msgstr ""
 
@@ -529,7 +552,11 @@ msgstr ""
 msgid "'%(value)s' value must be an integer."
 msgstr ""
 
-#: db/models/fields/__init__.py:1009
+#: db/models/fields/__init__.py:960 db/models/fields/__init__.py:1849
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: db/models/fields/__init__.py:972
 #, python-format
 msgid "'%(value)s' value must be either True or False."
 msgstr ""
@@ -620,11 +647,7 @@ msgstr ""
 msgid "Floating point number"
 msgstr ""
 
-#: db/models/fields/__init__.py:1901
-msgid "Big (8 byte) integer"
-msgstr ""
-
-#: db/models/fields/__init__.py:1916
+#: db/models/fields/__init__.py:1864
 msgid "IPv4 address"
 msgstr ""
 
@@ -714,7 +737,17 @@ msgstr ""
 msgid "One-to-one relationship"
 msgstr ""
 
-#: db/models/fields/related.py:1100
+#: db/models/fields/related.py:1049
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: db/models/fields/related.py:1050
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: db/models/fields/related.py:1092
 msgid "Many-to-many relationship"
 msgstr ""
 
@@ -876,16 +909,16 @@ msgid ""
 "may be ambiguous or it may not exist."
 msgstr ""
 
-#: forms/widgets.py:353
+#: forms/widgets.py:378
+msgid "Clear"
+msgstr ""
+
+#: forms/widgets.py:379
 msgid "Currently"
 msgstr ""
 
-#: forms/widgets.py:354
+#: forms/widgets.py:380
 msgid "Change"
-msgstr ""
-
-#: forms/widgets.py:355
-msgid "Clear"
 msgstr ""
 
 #: forms/widgets.py:570
@@ -1351,8 +1384,8 @@ msgstr ""
 
 #: views/debug.py:511
 msgid ""
-"Of course, you haven't actually done any work yet. Next, start your first "
-"app by running <code>python manage.py startapp [app_label]</code>."
+"Next, start your first app by running <code>python manage.py startapp "
+"[app_label]</code>."
 msgstr ""
 
 #: views/debug.py:513

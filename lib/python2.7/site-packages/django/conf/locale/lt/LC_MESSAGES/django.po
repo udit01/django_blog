@@ -4,7 +4,7 @@
 # Jannis Leidel <jannis@leidel.info>, 2011
 # Kostas <tamosiunas@gmail.com>, 2011
 # lauris <lauris@runbox.com>, 2011
-# Matas Dailyda <matas@dailyda.com>, 2015
+# Matas Dailyda <matas@dailyda.com>, 2015-2017
 # naktinis <naktinis@gmail.com>, 2012
 # Nikolajus Krauklis <nikolajus@gmail.com>, 2013
 # Povilas Balzaravičius <pavvka@gmail.com>, 2011-2012
@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 17:42+0200\n"
-"PO-Revision-Date: 2015-11-29 11:14+0000\n"
+"POT-Creation-Date: 2017-01-19 16:49+0100\n"
+"PO-Revision-Date: 2017-01-30 14:06+0000\n"
 "Last-Translator: Matas Dailyda <matas@dailyda.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/django/django/language/"
 "lt/)\n"
@@ -67,6 +67,9 @@ msgstr "Danų"
 
 msgid "German"
 msgstr "Vokiečių"
+
+msgid "Lower Sorbian"
+msgstr "Žemutinė Sorbų"
 
 msgid "Greek"
 msgstr "Graikų"
@@ -137,6 +140,9 @@ msgstr "Hindi"
 msgid "Croatian"
 msgstr "Kroatų"
 
+msgid "Upper Sorbian"
+msgstr "Aukštutinė Sorbų"
+
 msgid "Hungarian"
 msgstr "Vengrų"
 
@@ -197,7 +203,7 @@ msgstr "Marati"
 msgid "Burmese"
 msgstr "Mjanmų"
 
-msgid "Norwegian Bokmal"
+msgid "Norwegian Bokmål"
 msgstr "Norvegų Bokmal"
 
 msgid "Nepali"
@@ -296,8 +302,14 @@ msgstr "Statiniai failai"
 msgid "Syndication"
 msgstr "Sindikacija"
 
-msgid "Web Design"
-msgstr "Puslapio dizainas"
+msgid "That page number is not an integer"
+msgstr "To puslapio numeris nėra sveikasis skaičius."
+
+msgid "That page number is less than 1"
+msgstr "To numerio puslapis yra mažesnis už 1"
+
+msgid "That page contains no results"
+msgstr "Tas puslapis neturi jokių rezultatų"
 
 msgid "Enter a valid value."
 msgstr "Įveskite tinkamą reikšmę."
@@ -409,6 +421,14 @@ msgstr[1] ""
 msgstr[2] ""
 "Įsitikinkite, kad yra nedaugiau nei %(max)s skaitmenų prieš kablelį."
 
+#, python-format
+msgid ""
+"File extension '%(extension)s' is not allowed. Allowed extensions are: "
+"'%(allowed_extensions)s'."
+msgstr ""
+"Bylos tipas '%(extension)s' negalimas. Galimi tipai yra: "
+"'%(allowed_extensions)s'."
+
 msgid "and"
 msgstr "ir"
 
@@ -448,6 +468,9 @@ msgstr "Sveikas skaičius"
 #, python-format
 msgid "'%(value)s' value must be an integer."
 msgstr "'%(value)s' turi būti sveikas skaičius."
+
+msgid "Big (8 byte) integer"
+msgstr "Didelis (8 baitų) sveikas skaičius"
 
 #, python-format
 msgid "'%(value)s' value must be either True or False."
@@ -532,9 +555,6 @@ msgstr "'%(value)s' reikšmė turi būti realus skaičius."
 msgid "Floating point number"
 msgstr "Realus skaičius"
 
-msgid "Big (8 byte) integer"
-msgstr "Didelis (8 baitų) sveikas skaičius"
-
 msgid "IPv4 address"
 msgstr "IPv4 adresas"
 
@@ -608,6 +628,14 @@ msgstr "Išorinis raktas (tipas nustatomas susijusiame lauke)"
 
 msgid "One-to-one relationship"
 msgstr "Sąryšis vienas su vienu"
+
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr "%(from)s-%(to)s sąryšis"
+
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr "%(from)s-%(to)s sąryšiai"
 
 msgid "Many-to-many relationship"
 msgstr "Sąryšis daug su daug"
@@ -755,14 +783,14 @@ msgstr ""
 "Nepavyko interpretuoti %(datetime)s %(current_timezone)s laiko juostoje; "
 "Data gali turėti keletą reikšmių arba neegzistuoti."
 
+msgid "Clear"
+msgstr "Išvalyti"
+
 msgid "Currently"
 msgstr "Šiuo metu"
 
 msgid "Change"
 msgstr "Pakeisti"
-
-msgid "Clear"
-msgstr "Išvalyti"
 
 msgid "Unknown"
 msgstr "Nežinomas"
@@ -1146,11 +1174,11 @@ msgid "Congratulations on your first Django-powered page."
 msgstr "Sveikiname Jus su Jūsų pirmuoju Django tinklalapiu."
 
 msgid ""
-"Of course, you haven't actually done any work yet. Next, start your first "
-"app by running <code>python manage.py startapp [app_label]</code>."
+"Next, start your first app by running <code>python manage.py startapp "
+"[app_label]</code>."
 msgstr ""
-"Kolkas Jūs neatlikote jokių darbų. Paleiskite savo pirmąją aplikaciją "
-"suvesdami <code>python manage.py startapp [app_label]</code>."
+"Toliau, pradėkite pirmą savo aplikaciją paleisdami <code>python manage.py "
+"startapp [app_label]</code>."
 
 msgid ""
 "You're seeing this message because you have <code>DEBUG = True</code> in "

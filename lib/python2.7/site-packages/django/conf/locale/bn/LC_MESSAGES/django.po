@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 17:42+0200\n"
-"PO-Revision-Date: 2015-11-27 09:35+0000\n"
+"POT-Creation-Date: 2017-01-19 16:49+0100\n"
+"PO-Revision-Date: 2017-01-20 09:03+0000\n"
 "Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
 "Language-Team: Bengali (http://www.transifex.com/django/django/language/"
 "bn/)\n"
@@ -61,6 +61,9 @@ msgstr "ড্যানিশ"
 
 msgid "German"
 msgstr "জার্মান"
+
+msgid "Lower Sorbian"
+msgstr ""
 
 msgid "Greek"
 msgstr "গ্রিক"
@@ -131,6 +134,9 @@ msgstr "হিন্দী"
 msgid "Croatian"
 msgstr "ক্রোয়েশিয়ান"
 
+msgid "Upper Sorbian"
+msgstr ""
+
 msgid "Hungarian"
 msgstr "হাঙ্গেরিয়ান"
 
@@ -191,8 +197,8 @@ msgstr ""
 msgid "Burmese"
 msgstr "বার্মিজ"
 
-msgid "Norwegian Bokmal"
-msgstr "নরওয়েজীয় বোকমাল"
+msgid "Norwegian Bokmål"
+msgstr ""
 
 msgid "Nepali"
 msgstr "নেপালি"
@@ -290,7 +296,13 @@ msgstr ""
 msgid "Syndication"
 msgstr ""
 
-msgid "Web Design"
+msgid "That page number is not an integer"
+msgstr ""
+
+msgid "That page number is less than 1"
+msgstr ""
+
+msgid "That page contains no results"
 msgstr ""
 
 msgid "Enter a valid value."
@@ -380,6 +392,12 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#, python-format
+msgid ""
+"File extension '%(extension)s' is not allowed. Allowed extensions are: "
+"'%(allowed_extensions)s'."
+msgstr ""
+
 msgid "and"
 msgstr "এবং"
 
@@ -418,6 +436,9 @@ msgstr "ইন্টিজার"
 #, python-format
 msgid "'%(value)s' value must be an integer."
 msgstr ""
+
+msgid "Big (8 byte) integer"
+msgstr "বিগ (৮ বাইট) ইন্টিজার"
 
 #, python-format
 msgid "'%(value)s' value must be either True or False."
@@ -492,9 +513,6 @@ msgstr ""
 msgid "Floating point number"
 msgstr "ফ্লোটিং পয়েন্ট সংখ্যা"
 
-msgid "Big (8 byte) integer"
-msgstr "বিগ (৮ বাইট) ইন্টিজার"
-
 msgid "IPv4 address"
 msgstr "IPv4 ঠিকানা"
 
@@ -564,6 +582,14 @@ msgstr "ফরেন কি (টাইপ রিলেটেড ফিল্ড 
 
 msgid "One-to-one relationship"
 msgstr "ওয়ান-টু-ওয়ান রিলেশানশিপ"
+
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
 
 msgid "Many-to-many relationship"
 msgstr "ম্যানি-টু-ম্যানি রিলেশানশিপ"
@@ -697,14 +723,14 @@ msgid ""
 "may be ambiguous or it may not exist."
 msgstr ""
 
+msgid "Clear"
+msgstr "পরিষ্কার করুন"
+
 msgid "Currently"
 msgstr "এই মুহুর্তে"
 
 msgid "Change"
 msgstr "পরিবর্তন"
-
-msgid "Clear"
-msgstr "পরিষ্কার করুন"
 
 msgid "Unknown"
 msgstr "অজানা"
@@ -1069,8 +1095,8 @@ msgid "Congratulations on your first Django-powered page."
 msgstr ""
 
 msgid ""
-"Of course, you haven't actually done any work yet. Next, start your first "
-"app by running <code>python manage.py startapp [app_label]</code>."
+"Next, start your first app by running <code>python manage.py startapp "
+"[app_label]</code>."
 msgstr ""
 
 msgid ""

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 17:42+0200\n"
-"PO-Revision-Date: 2015-11-27 09:34+0000\n"
+"POT-Creation-Date: 2017-01-19 16:49+0100\n"
+"PO-Revision-Date: 2017-01-20 09:03+0000\n"
 "Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
 "Language-Team: Bosnian (http://www.transifex.com/django/django/language/"
 "bs/)\n"
@@ -60,6 +60,9 @@ msgstr "danski"
 
 msgid "German"
 msgstr "njemački"
+
+msgid "Lower Sorbian"
+msgstr ""
 
 msgid "Greek"
 msgstr "grčki"
@@ -130,6 +133,9 @@ msgstr "hindi"
 msgid "Croatian"
 msgstr "hrvatski"
 
+msgid "Upper Sorbian"
+msgstr ""
+
 msgid "Hungarian"
 msgstr "mađarski"
 
@@ -190,8 +196,8 @@ msgstr ""
 msgid "Burmese"
 msgstr ""
 
-msgid "Norwegian Bokmal"
-msgstr "Norveški književni"
+msgid "Norwegian Bokmål"
+msgstr ""
 
 msgid "Nepali"
 msgstr ""
@@ -289,7 +295,13 @@ msgstr ""
 msgid "Syndication"
 msgstr ""
 
-msgid "Web Design"
+msgid "That page number is not an integer"
+msgstr ""
+
+msgid "That page number is less than 1"
+msgstr ""
+
+msgid "That page contains no results"
 msgstr ""
 
 msgid "Enter a valid value."
@@ -386,6 +398,12 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
+#, python-format
+msgid ""
+"File extension '%(extension)s' is not allowed. Allowed extensions are: "
+"'%(allowed_extensions)s'."
+msgstr ""
+
 msgid "and"
 msgstr "i"
 
@@ -424,6 +442,9 @@ msgstr "Cijeo broj"
 #, python-format
 msgid "'%(value)s' value must be an integer."
 msgstr ""
+
+msgid "Big (8 byte) integer"
+msgstr "Big (8 bajtni) integer"
 
 #, python-format
 msgid "'%(value)s' value must be either True or False."
@@ -498,9 +519,6 @@ msgstr ""
 msgid "Floating point number"
 msgstr "Broj sa pokrenom zapetom"
 
-msgid "Big (8 byte) integer"
-msgstr "Big (8 bajtni) integer"
-
 msgid "IPv4 address"
 msgstr ""
 
@@ -570,6 +588,14 @@ msgstr "Strani ključ (tip određen povezanim poljem)"
 
 msgid "One-to-one relationship"
 msgstr "Jedan-na-jedan odnos"
+
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
 
 msgid "Many-to-many relationship"
 msgstr "Više-na-više odsnos"
@@ -710,14 +736,14 @@ msgid ""
 "may be ambiguous or it may not exist."
 msgstr ""
 
+msgid "Clear"
+msgstr "Očisti"
+
 msgid "Currently"
 msgstr "Trenutno"
 
 msgid "Change"
 msgstr "Izmjeni"
-
-msgid "Clear"
-msgstr "Očisti"
 
 msgid "Unknown"
 msgstr "Nepoznato"
@@ -1089,8 +1115,8 @@ msgid "Congratulations on your first Django-powered page."
 msgstr ""
 
 msgid ""
-"Of course, you haven't actually done any work yet. Next, start your first "
-"app by running <code>python manage.py startapp [app_label]</code>."
+"Next, start your first app by running <code>python manage.py startapp "
+"[app_label]</code>."
 msgstr ""
 
 msgid ""
