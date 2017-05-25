@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+</head>
+<body>
+    <h1>{{title}} is working</h1>
+
+
+    {% for obj in object_list %}
+    {{obj.id}} - <a href="{{ obj.get_absolute_url }}"><strong>{{obj.title}}</strong></a></br>
+        {{obj.content}}</br>
+        {{obj.updated}}</br>
+    {% endfor %}
+
+</body>
+</html>
+
+

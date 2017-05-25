@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 from django.db import models
+from django.core.urlresolvers import reverse
 
 # Create your models here.
 
@@ -15,3 +16,12 @@ class Post(models.Model):
         return self.title
     def __str__(self):
         return self.title
+    def get_absolute_url(self):
+        # return "/posts/%s/" %(self.id)
+        return reverse("detail" , kwargs={"id" :self.id})
+        #above is the 4th version of url mapper which is very very dynamic
+
+    """     #<!-- href=/posts/{{obj.id}}-->
+        #<!-- href="{% url 'detail' id=obj.id %}"-->
+    """
+    #can use both of the above in the index.html to redirect to corresponding details page in href attribute
